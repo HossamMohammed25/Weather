@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="icon" href="images/news icon.webp" type="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+
+<body class="light-mode background">
+
+    <nav class="navbar navbar-expand-lg py-5 ">
+        <div class="container ">
+            <a class="navbar-brand ms-5" href="#">
+                <img src="images/logo@2x.png" width="64px" height="38" alt="">
+                <div class="logo d-inline-block ms-2 align-middle">
+                    <h1>Weather</h1>
+                    <p>tagline goes here</p>
+
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item  mx-4">
+                        <a class="nav-link px-4" aria-current="page" href="index.htm">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link active px-4" href="#">News</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link px-4" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link px-4" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link px-4" href="contact.html">Contact</a>
+                    </li>
+                    <button id="toggleMode" class="bg-transparent border-0 switch "><i class="fas fa-moon"></i></button>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container my-5 py-5">
+
+        <div class="row my-5 gy-5 pt-5" id="allNews">
+            <span class="loader mx-auto"></span>
+
+
+        </div>
+    </div>
+
+
+
+    <!------------------------------------------ footer ------------------------------ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center justify-content-center ">
+                <div class="col-md-8">
+                    <div class="search py-5 position-relative w-75 mx-auto">
+                        <input type="text" class="rounded-pill my-4 border-0"
+                            placeholder="Enter your email to subscribe..." id="search">
+                        <input type="submit" value="Subscribe" id="submit" class="px-4 bottom-50 py-2">
+                        <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ms-5 ps-5 mb-4">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/news.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

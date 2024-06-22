@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="light-mode contact">
+
+
+    <nav class="navbar navbar-expand-lg py-5 ">
+        <div class="container ">
+            <a class="navbar-brand ms-5" href="#">
+                <img src="images/logo@2x.png" width="64px" height="38" alt="">
+                <div class="logo d-inline-block ms-2 align-middle">
+                    <h1>Weather</h1>
+                    <p>tagline goes here</p>
+
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link px-4" aria-current="page" href="index.htm">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link px-4" href="http://127.0.0.1:5501/news.html">News</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link px-4" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link px-4" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link active px-4" href="#">Contact</a>
+                    </li>
+                    <button id="toggleMode" class="bg-transparent border-0 switch "><i class="fas fa-moon"></i></button>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5 content">
+        <div class="row my-5 py-5">
+            <div class="col-md-6">
+                <h2 class="text-black-50 fw-semibold">
+                    Contact Us
+                </h2>
+                <p class="lead temp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur
+                    inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum
+                    cum. Nisi facilis odit hic, ipsum sed!</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 ">
+                <div class="w-100 d-flex justify-content-between align-items-center mt-4">
+                    <input class="w-100 m-2 p-3 rounded-5 mb-2 border-1 form-control " type="text"
+                        placeholder="Your Name ...">
+                    <input class="w-100 m-2 p-3 rounded-5 border-1 form-control " type="text"
+                        placeholder="Email Address...">
+
+                </div>
+                <div class="w-100 d-flex justify-content-between align-items-center mt-4">
+                    <input class="w-100 m-2 p-3 rounded-5  mb-2 border-1 form-control " type="text"
+                        placeholder="Company Name...">
+                    <input class="w-100 m-2 p-3 rounded-5  border-1 form-control " type="text" placeholder="Website...">
+
+                </div>
+                <div class="row mx-auto mt-5">
+                    <div class="col-md-12">
+                        <textarea name="" class="form-control rounded-5 py-5 " placeholder="Message...."
+                            id=""></textarea>
+                        <button class="bg-primary px-4 pill m-auto border-0 py-2 my-4  rounded-3">Submit</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-5 d-flex justify-content-between align-items-center mt-4 mb-5">
+                <div class="contact-info bg-body-secondary pb-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13806.060277817707!2d31.2282952!3d30.108071599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1719020628648!5m2!1sar!2seg"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <address>
+                        <p class="px-3 pt-2">
+                            <img src="https://routeweather.netlify.app/images/icon-marker@2x.png" alt="" width="12"
+                                height="19"> Company Name INC. 2803 Avenue Street, Los Angeles
+                        </p>
+                    </address>
+
+                    <a href="#" class="px-3"><img src="https://routeweather.netlify.app/images/icon-phone@2x.png" alt=""
+                            width="19" height="19">+1 800 314 235</a>
+                    <a href="#"><img src="https://routeweather.netlify.app/images/icon-envelope@2x.png" alt=""
+                            width="16" height="12">contact@companyname.com</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center justify-content-center ">
+                <div class="col-md-8">
+                    <div class="search py-5 position-relative w-75 mx-auto">
+                        <input type="text" class="rounded-pill my-4 border-0"
+                            placeholder="Enter your email to subscribe..." id="search">
+                        <input type="submit" value="Subscribe" id="submit" class="px-4 bottom-50 py-2">
+                        <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ms-5 ps-5 mb-4">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/news.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
